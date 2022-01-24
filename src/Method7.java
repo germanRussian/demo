@@ -51,7 +51,7 @@ public class Method7 {
 		System.out.println(a + " / " + b + " = " + res6);
 	}
 
-	private static double divides(int a, int b) {
+	private static double divides(int a, int b) { 
 		// TODO Auto-generated method stub
 		return (double)a/b;
 	}
