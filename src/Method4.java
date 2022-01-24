@@ -14,7 +14,7 @@ public class Method4 {
 	public static void main(String[] args) {
 		int i = 24;
 		aaa(i);
-		
+		 
 	}
 
 }
