@@ -39,9 +39,11 @@ public class Method7 {
 		int res1 = minus(a, b);    // 빼기
 		int res2 = by(a, b);       // 곱하기
 		int res3 = divide(a, b);   // 나누기
-		double res6 = divides(a,b);
 		int res4 = reminger(a, b); // 나머지
-
+		double res6 = divides(a,b);
+		
+		
+		
 		System.out.println(a + " + " + b + " = " + res);
 		System.out.println(a + " - " + b + " = " + res1);
 		System.out.println(a + " x " + b + " = " + res2);
