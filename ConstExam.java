@@ -2,20 +2,19 @@
 public class ConstExam {
 
 	public static void main(String[] args) {
-
-		// 생성자
-		Const c = new Const();// 디폴트 생성자.
-		Const c1 = new Const(10, "abc");
-		
+		// new 생성자();
+		Const c = new Const();
+		Const c2 = new Const(10, "abc");
 		c.a = 10;
-		c1.a = 20;
+		c2.a = 20;
 		System.out.println(c.a);
-		System.out.println(c1.a);
+		System.out.println(c2.a);
 
 //		c.print(10);
-//		c.print(10.8);
-//		c.print("한글");
-//		c.print(10, 11.2, "한글123");
+//		c.print(10.1);
+//		c.print("Hi");
+		c.print(10, 10.1, "Hi");
+		// 오버로딩. 알맞은 곳으로 연결돼서 출력된다.
 	}
 
 }

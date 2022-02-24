@@ -76,7 +76,7 @@ public class Elevator2 {
 					}
 					currFloor = finishFloor;
 					openDoor();
-					System.out.println("하차하셨습니다.");
+					System.out.println("내렸습니다.");
 					closeDoor();
 				} else {
 					System.out.println("처음부터 다시 하세요.");

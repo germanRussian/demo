@@ -1,9 +1,10 @@
 
 public class Television {
+	
 	static String company = "samsung";
-	static String model = "Lcd";
+	static String model = "LCD";
 	static String info;
-
+	
 	static {
 		info = company + "-" + model;
 	}
